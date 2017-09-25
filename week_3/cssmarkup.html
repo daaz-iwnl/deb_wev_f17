@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Layout 1 header-footer-sidebar using pixels</title>
+    <style type="text/css">
+    body {
+		background-color: #FFF7EB
+	}
+    /* grouped selectors, same styles, different tags*/
+    div,
+    header,
+    footer,
+    main,
+    article,
+    section,
+    aside {
+        background: rgba(0,40,117,0.4);
+        min-height: 300px;
+        color: #FFF7EB;
+        font-family: "Helvetica Neue";
+    }
+
+    div.wrapper {
+        width: 900px;
+        /* center content within browser using margin 0 auto -- 0 top/bottom, auto left/right */
+        margin: 0 auto;
+    }
+
+    article {
+		width: 600px;
+		float: left;
+		/* adding 10px margin all around will add 20px to our width/height */
+		margin: 10px;
+		/* 600px -10 px - 10px = 580px */
+		width: 580px;
+		/* padding will also add width to dimensions but won't affect other objects*/
+		padding: 10px;
+		width: 560px;
+    }
+
+    aside {
+    	width: 300px;
+    	min-height: 600px;
+    	float: left;
+    	margin: 10px;
+    	width: 260px;
+		padding: 10px;
+
+    }
+
+	.navbuttons {
+		padding: 10px;
+		padding-top: 270px;
+	}
+
+	section {
+		border: 3px solid rgba(0,40,117,0.8);
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	/* when floating elements are loaded, we need to clear immediately*/
+    .clear {
+    	clear: both;
+    	height: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+        	<h3 class="navbuttons">
+        	<nav>
+        		<a href="#">Home</a>
+        		<a href="#">About</a>
+        		<a href="#">Recipes</a>
+        		<a href="#">Contact</a>
+        </header>
+        <main>
+            <h1>Quentin Tarantino's Apple Strudel</h1>
+            <aside>
+                <h2>Ingredients</h2>
+                <ul>
+                	<li>1 1/2 cups bread flour (plus more for dusting, sprinkling, filling)</li>
+					<li>4 tbsp vegetable oil</li>
+					<li>2 egg whites</li>
+					<li>1/2 tsp salt</li>
+					<li>1/2 tbsp lemon juice</li>
+					<li>1/4 cup warm water (110F)</li>
+					<li>4 baking apples, peeled and sliced thinly</li>
+					<li>1/2 cup sugar</li>
+					<li>Zest of one lemon</li>
+					<li>1/2 cup raisins</li>
+					<li>1 tbsp cinnamon</li>
+					<li>1/2 cup finely chopped walnuts, hazelnuts, or almonds</li>
+					<li>1 stick butter, melted, plus more as needed</li>
+					<li>1 egg, beaten</li>
+					<li>1 cup heavy cream</li>
+					<li>1 tbsp sugar</li>
+					<li>Powdered sugar for garnish</li>
+            </aside>
+            <article>
+                <h2>Directions</h2>
+                <section>
+                	<h3>Making the pastry</h3>
+					<ol>
+						<li>Place flour in a large bowl - create a well in the center with your fingers, and fill with vegetable oil, egg whites, salt, and lemon juice.</li>
+						<li>Mix with fingers until just combined, and sprinkle with water.</li>
+						<li>Knead until a sticky dough forms.  Turn out onto a lightly floured tabletop, and knead rigorously (slap onto the table about 100 times), until the dough is soft and supple.</li>
+						<li>Place in a lightly oiled bowl and let rest for 30 minutes.</li>
+						<li>Combine apples, sugar, lemon zest, raisins, and cinnamon.  Set aside and let liquid weep from apples.</li>
+					</ol>
+				</section>
+				<section>
+					<h3>Making the filling</h3>
+					<ol>
+					<li>Cover a large table with a cotton tablecloth, and liberally dust with flour.</li>
+					<li>Roll out dough on tablecloth until about 24" in diameter, and using floured fists, stretch dough out as large as possible without tearing.</li>
+					<li>Back on the tablecloth, gently tug at edges of dough until it's a rectangle thin enough to see the pattern of the tablecloth underneath.</li>
+					<li>Trim off torn/thick edges.</li>
+					<li>Drizzle with melted butter, and brush until evenly coated.  Sprinkle with chopped nuts.</li>
+					</ol>
+				</section>
+				<section>
+					<h3>Putting it Together</h3>
+					<ol>				
+					<li>Place about 3/4 of apple mixture on one side of the dough rectangle, and using the tablecloth, roll the apples over onto the dough square.</li>
+					<li>Brush the newly-exposed dough covering the apples with melted butter.</li>
+					<li>Roll apples over again, and repeat, until apples are at the center of a long, closed roll.</li>
+					<li>Pinch ends together to seal contents inside, and place seam-side down on a parchment-lined baking sheet.</li>
+					<li>Brush liberally with a beaten egg.</li>
+					</ol>
+				</section>
+				<section>
+					<h3>Baking</h3>
+					<ol>					
+					<li>Bake for about an hour, basting with melted butter every 10-15 minutes, as soon as the crust begins to look dry.</li>
+					<li>Remove from oven when golden brown.  Allow to cool at least one hour before slicing, dusting with powdered sugar, and serving.</li>
+					<li>In a small bowl, combine cream and sugar.  Beat to stiff peaks, and pipe into a bowl, served alongside strudel.</li>
+					</ol>
+				</section>
+            </article>
+            <!-- clear out so our wrapping div (main tag) wraps around
+            	we will discuss several clear fixes/alternatives next week-->
+            <br class="clear">
+        </main>
+        <footer>
+            <h3>Some footer text. maybe social media links someday</h3>
+        </footer>
+    </div>
+</body>
+
+</html>

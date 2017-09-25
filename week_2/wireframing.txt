@@ -1,0 +1,10 @@
+First off, it has to be said that the article is incredibly basic, and there are few times when the
+information presented is specifically for UX or wireframing. We could easily be talking about designing
+buildings and switch a few words around, or talking about how to analyze an article. This is more like
+an article on how to problem solve, which isn't necessarily a bad thing. However, perhaps the author should
+have broken down the "Workflows and Sketches" section, since it is the both the most UX/wireframing-specific
+but also the least intuitive/common sense issue. Certain topics like working with others and understanding
+the problem are applicable to every design/problem solving situation, and most people will for that reason
+have heard the same thing more than enough times. In this case, it would be better if they were understood
+in the context of the workflow and the sketching in some way that contributes specifically to the unique
+problems of user experience.
