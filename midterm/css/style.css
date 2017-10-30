@@ -34,7 +34,11 @@ a {
 
 .alpha {
    margin-top: 50px;
-   margin-left: 13px;
+}
+
+.cluster {
+   margin-left: 0;
+   margin-right: 0;
 }
 /* =============================================================================
    Page Styles
@@ -74,6 +78,11 @@ a {
    top: -2px;
 }
 
+a:active, a:focus {
+   outline: 0;
+   border: none;
+   -moz-outline-style:none;
+}
 
 
 /* ====================== PORTFOLIO ==================== */
@@ -217,21 +226,15 @@ a {
    opacity: 1;
 }
 
-.port-elements {
+.max-w {
    max-width: 300px;
 }
-
-#item {
-
-}
-
 
 
 /* ====================== ABOUT ==================== */
 
 .long {
    display: inline-block;
-   max-width: 60%;
 }
 
 .lgr {
