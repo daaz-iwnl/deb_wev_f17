@@ -1,0 +1,279 @@
+/*
+Responsive 996px grid system ~ Style CSS.
+Copyright 2013, Josh Cope
+*/
+
+/* =============================================================================
+   Site Styles
+   ========================================================================== */
+@font-face {
+    font-family: 'Chalkduster';
+    src:url('Chalkduster.ttf.svg#Chalkduster') format('svg'),
+        url('Chalkduster.ttf.eot'),
+        url('Chalkduster.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background: white;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   color: rgb(155, 155, 155);
+   font-family: 'Chalkduster', sans-serif;
+}
+
+h1, h2 {
+   color: black;
+}
+
+h3, h4, h5, h6 {
+   color: white;
+}
+
+header {
+   width: 100%;
+}
+
+a {
+   text-decoration: none;
+   color: rgb(155, 155, 155);
+}
+
+.noMarNoPad {
+   margin: 0;
+   padding: 0;
+}
+
+.alpha {
+   margin-top: 50px;
+}
+
+.cluster {
+   margin-left: 0;
+   margin-right: 0;
+}
+/* =============================================================================
+   Page Styles
+   ========================================================================== */
+
+/* ====================== PORTFOLIO ==================== */
+
+#name {
+   display: block;
+   margin: 0 auto;
+   font-size: 72px;
+   font-weight: 100;
+   height: 72px;
+   box-sizing: border-box;
+   margin-top: 100px;
+}
+
+#name a {
+   color: black;
+}
+
+a:active, a:focus {
+   outline: 0;
+   border: none;
+   -moz-outline-style:none;
+}
+
+#resume {
+   position: fixed;
+   top: 8px;
+   right: 8px;
+   max-width: 337px;
+}
+
+#na
+
+.view{
+   cursor: default;
+   overflow: hidden;
+   text-align: center;
+   position: relative;
+   margin-bottom: 30px;
+}
+
+.view .mask {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left:0;
+   background-color: rgba(0,0,0,0.8);
+}
+
+.view img {
+   display: block;
+   position: relative;
+   margin: 0;
+}
+
+.view h3 {
+   margin: 0 auto;
+   color: #FFF;
+   font-size: 22px;
+   margin-top: 180px;
+   text-shadow: none;
+   position: relative;  
+}
+
+.view p {
+   color: #aaa;
+   opacity: 0;
+   padding: 0 20px;
+}
+
+.close {
+   width: 34px;
+   height: 34px;
+   background: white;
+   color: black;
+   position: absolute;
+   right: 0px;
+   text-align: center;
+   top: 0px;
+   text-decoration: none;
+   font-size: 34px;
+}
+
+.modal-window {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0.5);
+   z-index: 99999;
+   opacity: 0;
+   transition: opacity 400ms ease-in;
+   pointer-events: none;
+}
+
+.modal-window:target {
+   opacity: 1;
+   pointer-events: auto;
+}
+
+.modal-window > div {
+   width: auto;
+   max-width: 960px;
+   height: 80%;
+   position: relative;
+   margin: 7% auto;
+   background: #fff;
+}
+
+#mediaWindow {
+   background: black;
+   height: 100%;
+   display: inline-block;
+}
+
+#mediaObj {
+   position: relative;
+   height: 56%;
+   top: 22%;
+}
+
+#mediaDesc p, #mediaDesc h2 {
+   padding: 20px;
+}
+/*******************************
+   CSS3 Hover Styles
+*******************************/
+
+/* set up transitions for hover*/
+.view .mask {
+   background: -webkit-linear-gradient(rgba(233, 25, 25, 0.8), rgba(0, 0, 0, 0.8));
+   background: -o-linear-gradient(rgba(233, 25, 25, 0.8), rgba(0, 0, 0, 0.8));
+   background: linear-gradient(rgba(233, 25, 25, 0.8), rgba(0, 0, 0, 0.8));
+   transition: all 0.2s linear;
+   opacity: 0;
+}
+
+.view h3 {
+    color: white;
+    background-color: transparent;
+    transition: all 0.2s linear;
+    opacity: 0;
+    padding: 0 10px;
+   }
+
+.view:hover img {
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 0.2s linear;
+
+/*show mask div on hover*/
+}
+.view:hover .mask {
+   opacity: 1;
+}
+
+/*scale from 0 to 2, and up the opacity from 0 to 1*/
+
+.view:hover h3,
+.view:hover p,
+.view:hover a.info {
+   transform: scale(1);
+   opacity: 1;
+}
+
+.max-w {
+   max-width: 300px;
+}
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+
+   /* ==== HOME ==== */
+   #name {
+   font-size: 48px;
+   text-align: center;
+   }
+
+   #sub {
+   padding: 0;
+   text-align: center;
+   }
+
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+}
+/* =============================================================================
+   Font-Face
+   ========================================================================== */
+/* This is the proper syntax for an @font-face file
+
+/* @font-face {
+font-family: 'FontName';
+src: url('../fonts/FontName.eot');
+src: url('../fonts/FontName.eot?iefix') format('embedded-opentype'),
+url('../fonts/FontName.woff') format('woff'),
+url('../fonts/FontName.ttf') format('truetype'),
+url('../fonts/FontName.svg#FontName') format('svg');
+font-weight: normal;
+font-style: normal; }

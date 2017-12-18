@@ -1,0 +1,304 @@
+{
+    "name": "Hello.",
+    "children": [
+    {
+        "feather": "1",
+        "img": "assets/feathers/f1.png",
+        "width": 227,
+        "height": 356
+    },
+    {
+        "feather": "2",
+        "img": "assets/feathers/f2.png",
+        "width": 251,
+        "height": 306
+    },
+    {
+        "feather": "3",
+        "img": "assets/feathers/f3.png",
+        "width": 308,
+        "height": 236
+    },
+    {
+        "feather": "4",
+        "img": "assets/feathers/f4.png",
+        "width": 165,
+        "height": 161
+    },
+    {
+        "feather": "5",
+        "img": "assets/feathers/f5.png",
+        "width": 797,
+        "height": 773
+    },
+    {
+        "feather": "6",
+        "img": "assets/feathers/f6.png",
+        "width": 144,
+        "height": 175
+    },
+    {
+        "feather": "7",
+        "img": "assets/feathers/f7.png",
+        "width": 297,
+        "height": 310
+    },
+    {
+        "feather": "8",
+        "img": "assets/feathers/f8.png",
+        "width": 107,
+        "height": 204
+    },
+    {
+        "feather": "9",
+        "img": "assets/feathers/f9.png",
+        "width": 252,
+        "height": 287
+    },
+    {
+        "feather": "10",
+        "img": "assets/feathers/f10.png",
+        "width": 535,
+        "height": 854
+    },
+    {
+        "feather": "11",
+        "img": "assets/feathers/f11.png",
+        "width": 238,
+        "height": 373
+    },
+    {
+        "feather": "12",
+        "img": "assets/feathers/f12.png",
+        "width": 140,
+        "height": 249
+    },
+    {
+        "feather": "13",
+        "img": "assets/feathers/f13.png",
+        "width": 185,
+        "height": 168
+    },
+    {
+        "feather": "14",
+        "img": "assets/feathers/f14.png",
+        "width": 305,
+        "height": 154
+    },
+    {
+        "feather": "15",
+        "img": "assets/feathers/f15.png",
+        "width": 327,
+        "height": 498
+    },
+    {
+        "feather": "16",
+        "img": "assets/feathers/f16.png",
+        "width": 295,
+        "height": 320
+    },
+    {
+        "feather": "17",
+        "img": "assets/feathers/f17.png",
+        "width": 50,
+        "height": 76
+    },
+    {
+        "feather": "18",
+        "img": "assets/feathers/f18.png",
+        "width": 107,
+        "height": 175
+    },
+    {
+        "feather": "19",
+        "img": "assets/feathers/f19.png",
+        "width": 109,
+        "height": 167
+    },
+    {
+        "feather": "20",
+        "img": "assets/feathers/f20.png",
+        "width": 206,
+        "height": 272
+    },
+    {
+        "feather": "21",
+        "img": "assets/feathers/f21.png",
+        "width": 148,
+        "height": 183
+    },
+    {
+        "feather": "22",
+        "img": "assets/feathers/f22.png",
+        "width": 152,
+        "height": 215
+    },
+    {
+        "feather": "23",
+        "img": "assets/feathers/f23.png",
+        "width": 311,
+        "height": 498
+    },
+    {
+        "feather": "24",
+        "img": "assets/feathers/f24.png",
+        "width": 138,
+        "height": 208
+    },
+    {
+        "feather": "25",
+        "img": "assets/feathers/f25.png",
+        "width": 245,
+        "height": 281
+    },
+    {
+        "feather": "26",
+        "img": "assets/feathers/f26.png",
+        "width": 125,
+        "height": 199
+    },
+    {
+        "feather": "27",
+        "img": "assets/feathers/f27.png",
+        "width": 436,
+        "height": 217
+    },
+    {
+        "feather": "28",
+        "img": "assets/feathers/f28.png",
+        "width": 250,
+        "height": 161
+    },
+    {
+        "feather": "29",
+        "img": "assets/feathers/f29.png",
+        "width": 362,
+        "height": 557
+    },
+    {
+        "feather": "30",
+        "img": "assets/feathers/f1.png",
+        "width": 160,
+        "height": 325
+    },
+    {
+        "feather": "31",
+        "img": "assets/feathers/f31.png",
+        "width": 760,
+        "height": 604
+    },
+    {
+        "feather": "32",
+        "img": "assets/feathers/f32.png",
+        "width": 243,
+        "height": 127
+    },
+    {
+        "feather": "33",
+        "img": "assets/feathers/f33.png",
+        "width": 431,
+        "height": 570
+    },
+    {
+        "feather": "34",
+        "img": "assets/feathers/f34.png",
+        "width": 535,
+        "height": 225
+    },
+    {
+        "feather": "35",
+        "img": "assets/feathers/f35.png",
+        "width": 253,
+        "height": 387
+    },
+    {
+        "feather": "36",
+        "img": "assets/feathers/f36.png",
+        "width": 255,
+        "height": 258
+    },
+    {
+        "feather": "37",
+        "img": "assets/feathers/f37.png",
+        "width": 262,
+        "height": 246
+    },
+    {
+        "feather": "38",
+        "img": "assets/feathers/f38.png",
+        "width": 161,
+        "height": 253
+    },
+    {
+        "feather": "39",
+        "img": "assets/feathers/f39.png",
+        "width": 307,
+        "height": 490
+    },
+    {
+        "feather": "40",
+        "img": "assets/feathers/f40.png",
+        "width": 121,
+        "height": 210
+    },
+    {
+        "feather": "41",
+        "img": "assets/feathers/f41.png",
+        "width": 197,
+        "height": 163
+    },
+    {
+        "feather": "42",
+        "img": "assets/feathers/f42.png",
+        "width": 119,
+        "height": 111
+    },
+    {
+        "feather": "43",
+        "img": "assets/feathers/f43.png",
+        "width": 132,
+        "height": 244
+    },
+    {
+        "feather": "44",
+        "img": "assets/feathers/f44.png",
+        "width": 226,
+        "height": 338
+    },
+    {
+        "feather": "45",
+        "img": "assets/feathers/f39.png",
+        "width": 307,
+        "height": 490
+    },
+    {
+        "feather": "46",
+        "img": "assets/feathers/f40.png",
+        "width": 121,
+        "height": 210
+    },
+    {
+        "feather": "47",
+        "img": "assets/feathers/f41.png",
+        "width": 197,
+        "height": 163
+    },
+    {
+        "feather": "48",
+        "img": "assets/feathers/f42.png",
+        "width": 119,
+        "height": 111
+    },
+    {
+        "feather": "49",
+        "img": "assets/feathers/f43.png",
+        "width": 132,
+        "height": 244
+    },
+    {
+        "feather": "50",
+        "img": "assets/feathers/f44.png",
+        "width": 226,
+        "height": 338
+    }]
+}
