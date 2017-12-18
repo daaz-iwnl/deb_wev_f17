@@ -8,13 +8,13 @@ Copyright 2013, Josh Cope
    ========================================================================== */
 
 html {
-    background: #020202;
+    background: white;
 }
 
 body {
    margin: 0;
    padding: 0;
-   color: #766;
+   color: rgb(155, 155, 155);
    font-family: 'Special Elite', sans-serif;
 }
 
