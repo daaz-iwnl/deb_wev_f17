@@ -24,6 +24,8 @@ Often, the issues that were encountered were some combination of svg elements (n
 
 Looking back, it may have been easier to program images with GSAP/JS animations instead of using D3 Force, but for what I would want the site to be later on seems only possible with D3 or other external libraries. However, attempting to learn D3 from the available examples and documentation was exceptionally stressful.
 
+A minor issue is that the CSS styles for the PORTFOLIO page are completely messed up when run anywhere but on github pages and I have not been able to figure out why, so the site will stay at daaz-iwnl.github.io.
+
 ======== PT 4: NEXT STEPS ========
 
 From this, I've experimented and learned a lot about the D3.js library, SVG drawings through JS, and using JSONs. If I had more time and resources, I would want to smooth out the movement of the D3 nodes, and find a better way to organize the images into elements while having good collision behavior. Furthermore, I would want to incorporate the portfolio page INTO the nodes or into the feathers in some way to make it weirder and more unique.
